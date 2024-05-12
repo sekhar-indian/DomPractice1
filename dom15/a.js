@@ -17,9 +17,7 @@ function handleFormSubmit(event){
     delete1.value='delete';
     newElement.appendChild(delete1)
 
-    //deleting data 
-   
-
+ 
     element.append(newElement)
     // add data in local storage
     localStorage.setItem(username,JSON.stringify({email:email,phone:phone}));
@@ -36,3 +34,10 @@ function handleFormSubmit(event){
    localStorage.removeItem(username)
   console.log(username)
   }
+
+
+  function updateData(event){
+   console.log('okkk')
+  }
+
+
